@@ -48,4 +48,29 @@
     padding-bottom: 5%
 }
 
+/* Photo Gallery from w3schools: https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery */
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+#photogallery {
+    padding-top: 1%;
+}
 
